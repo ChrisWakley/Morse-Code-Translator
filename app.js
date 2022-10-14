@@ -68,9 +68,8 @@ const translateEnglish = (e) => {
         result.textContent = 'no input detected.';
     } else {result.textContent = "";
 const morse = inputText.toLowerCase().split("");
-morse.forEach((letter) => (inputText.textContent += alphabet[letter]));
+morse.forEach((letter) => (result.textContent += alphabet[letter]));
     }
 };
-
 
 button.addEventListener("click", translateEnglish);
