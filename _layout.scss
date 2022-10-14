@@ -1,0 +1,21 @@
+.input__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .input__field {
+        height: 30vh;
+        width: 100%;
+    }
+    .input__button {
+        width: 75%;
+        height: 2rem;
+    }
+}
+
+.output__container {
+    .output__field {
+        height: 30vh;
+        width: 100%;
+    }
+}

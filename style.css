@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  background: linear-gradient(to right, #264db6, #dd4747de);
+}
+
+.input__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input__container .input__field {
+  height: 30vh;
+  width: 100%;
+}
+.input__container .input__button {
+  width: 75%;
+  height: 2rem;
+}
+
+.output__container .output__field {
+  height: 30vh;
+  width: 100%;
+}

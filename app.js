@@ -1,8 +1,8 @@
 import { alphabet } from "./morse.js";
 
-// const input = document.querySelector("#input");
-// const button = document.querySelector("#translateButton");
-// const result = document.querySelector("#outputField");
+const input = document.querySelector("#input");
+const button = document.querySelector("#translateButton");
+const result = document.querySelector("#outputField");
 
 const checkEmptyField = (word) => {
     if(word.length === 0) {
