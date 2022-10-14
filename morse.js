@@ -1,6 +1,4 @@
-
-
-const alphabet = {
+export const alphabet = {
     "a": ".- ",
     "b": "-... ",
     "c": "-.-. ",

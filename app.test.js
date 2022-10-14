@@ -41,14 +41,14 @@ describe("translateInput", () => {
     });
 
     it("should translate 123", () => {
-        const result = translateEnglish("");
+        const result = translateEnglish("123");
         expect(result).toBe(".---- ..--- ...--");
     });
 });
 
 describe("does not accept invalid characters", () => {
     it("should return invalid input", () => {
-        const result = translateEnglish("#\|`¬*");
+        const result = translateEnglish("#`¬*");
         expect(result).toBe("invalid input");
     });
 });
