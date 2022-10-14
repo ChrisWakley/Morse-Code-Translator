@@ -13,6 +13,29 @@ html {
   background: linear-gradient(to right, #264db6, #dd4747de);
 }
 
+.input__container .input__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+.input__container .input__field {
+  color: #000000;
+  background-color: #eeeeee;
+  font-family: "Roboto Mono", cursive;
+  font-size: 16px;
+}
+
+.output__container .output__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+.output__container .output__field {
+  color: #eeeeee;
+  font-family: "Roboto Mono", cursive;
+  font-size: 16px;
+}
+
 .input__container {
   display: flex;
   justify-content: center;
@@ -28,6 +51,12 @@ html {
   height: 2rem;
 }
 
+.output__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .output__container .output__field {
   height: 30vh;
   width: 100%;

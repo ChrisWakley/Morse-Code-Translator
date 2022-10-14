@@ -14,8 +14,33 @@
 }
 
 .output__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .output__field {
         height: 30vh;
         width: 100%;
     }
 }
+
+// @media screen and (min-width: 520px) {
+//     .__container {
+
+//     }
+// }
+// @media screen and (min-width: 768px) {
+//     .__container {
+
+//     }
+// }
+// @media screen and (min-width: 1024px) {
+//     __container {
+
+//     }
+// }
+// @media screen and (min-width: 1200px) {
+//     __container {
+
+//     }
+// }
